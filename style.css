@@ -56,3 +56,14 @@
   color: #2B2D35;
   border-color: #FFFFFF;
 }
+
+.nav-link{
+    color:white !important;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.xash-logo{
+    width:2.3rem !important;
+    height:auto
+}
