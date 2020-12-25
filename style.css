@@ -67,3 +67,7 @@
     width:2.3rem !important;
     height:auto
 }
+
+.navbar-dark{
+    background-color:black !important;
+}
