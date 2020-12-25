@@ -10,11 +10,20 @@
   background-position: top;
   position: relative;
 
-  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+  clip-path: polygon(100% 0, 100% 66%, 0 100%, 0 0);
 }
+.header2 {
+    height: 95vh;
+    background-color: black;
+    background-size: cover;
+    background-position: top;
+    position: relative;
+  
+    clip-path: polygon(100% 13%, 100% 100%, 0 100%, 0 53%);
+  }
 
 #left-side {
-  position: fixed;
+  position: relative;
   left: 50%;
   top: 0;
   width: 50%;
