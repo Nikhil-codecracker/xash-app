@@ -123,6 +123,9 @@ h1 {
   .middle {
     height: 130vh !important;
   }
+  .homeContent{
+    text-align: center !important;
+  }
 
   .home {
     position: relative;
@@ -142,8 +145,8 @@ h1 {
 
   }
   .header2{
-    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 20%);
-    height:50vh;
+    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 60%);
+    height:30vh;
   }
 }
 
