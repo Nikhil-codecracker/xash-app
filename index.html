@@ -125,11 +125,11 @@
         $(window).scroll(function() {
             if ($(this).scrollTop()>400)
              {
-                $('#stickyDiv').hide();
+                $('#stickyDiv').fadeOut();
              }
             else
              {
-              $('#stickyDiv').show();
+              $('#stickyDiv').fadeIn();
              }
          });
     </script>
