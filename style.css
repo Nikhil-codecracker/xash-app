@@ -11,7 +11,7 @@ html {
 }
 
 .header {
-  height: 95vh;
+  height: 100vh;
   background-color: black;
   background-size: cover;
   background-position: top;
@@ -97,7 +97,7 @@ h1 {
   }
 
   .homeImg {
-    margin-top: 4rem;
+    margin-top: 5rem;
   }
 
   h1 {
