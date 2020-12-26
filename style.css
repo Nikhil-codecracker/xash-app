@@ -2,10 +2,10 @@
   margin: 0;
   padding: 0;
 }
-html{
+html {
   scroll-behavior: smooth;
 }
-.body{
+.body {
   font-style: Monster;
 }
 
@@ -19,82 +19,82 @@ html{
   clip-path: polygon(100% 0, 100% 66%, 0 100%, 0 0);
 }
 .header2 {
-    height: 95vh;
-    background-color: black;
-    background-size: cover;
-    background-position: top;
-    position: relative;
-  
-    clip-path: polygon(100% 13%, 100% 100%, 0 100%, 0 53%);
+  height: 95vh;
+  background-color: black;
+  background-size: cover;
+  background-position: top;
+  position: relative;
+
+  clip-path: polygon(100% 13%, 100% 100%, 0 100%, 0 53%);
+}
+
+.home {
+  position: relative;
+  top: 30%;
+}
+
+.xash-logo {
+  width: 2.3rem !important;
+  height: auto;
+}
+
+.navbar-dark {
+  background-color: black !important;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.alignment-column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 600px) {
+  .meet {
+    font-size: 1.5rem !important;
+  }
+
+  .founders {
+    font-size: 4rem !important;
+  }
+  .middle {
+    height: 130vh !important;
   }
 
   .home {
     position: relative;
-    top: 30%;
+    top: -0px;
   }
 
-.xash-logo{
-    width:2.3rem !important;
-    height:auto
+  .founder-images {
+    margin: 3rem auto !important;
+  }
+
+  .top {
+    height: 120vh;
+  }
 }
 
-.navbar-dark{
-    background-color:black !important;
+.brand-logo {
+  height: 10rem;
+  width: auto;
+  border: 10px solid white;
 }
-::-webkit-scrollbar {
-    width: 5px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: #f1f1f1;
-  }
-  
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #888;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #555;
-  }
-
-  .alignment-column{
-      display:flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-  }
-
-  @media only screen and (max-width:600px){
-      .meet{
-          font-size: 1.5rem !important;
-      }
-
-      .founders{
-          font-size:4rem !important;
-      }
-    .middle{
-        height:130vh !important
-    }
-
-    .home{
-        position:relative;
-        top:-0px;
-    }
-
-    .founder-images{
-      margin: 3rem auto !important;
-    }
-
-    .top{
-      height:120vh;
-    }
-  }
-
-  .brand-logo{
-    height: 10rem; 
-    width:auto;
-    border: 10px solid white
-  }
