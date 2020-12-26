@@ -4,6 +4,7 @@
 }
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 .body {
   font-style: Monster;
@@ -126,7 +127,9 @@ h1 {
   .homeContent{
     text-align: center !important;
   }
-
+  .mailto{
+    text-align: center !important;
+  }
   .home {
     position: relative;
     top: -0px;
