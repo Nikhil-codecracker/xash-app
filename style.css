@@ -85,4 +85,14 @@
     .founder-images{
       margin: 3rem auto !important;
     }
+
+    .top{
+      height:120vh;
+    }
+  }
+
+  .brand-logo{
+    height: 10rem; 
+    width:auto;
+    border: 10px solid white
   }
