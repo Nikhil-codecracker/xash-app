@@ -93,6 +93,15 @@ html {
   .top {
     height: 120vh;
   }
+  .header{
+    clip-path: polygon(100% 0, 100% 80%, 0 100%, 0 0);
+    height:85vh;
+
+  }
+  .header2{
+    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 20%);
+    height:50vh;
+  }
 }
 
 .brand-logo {
