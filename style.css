@@ -33,6 +33,28 @@ html {
   top: 30%;
 }
 
+h1 {
+  color: white; 
+  text-align: right; 
+  font-size: 3rem; 
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+.homeDes {
+  color: white; 
+  text-align: right; 
+  font-size: 1.1rem;
+}
+
+.joinBtn {
+  float: right; 
+  padding: 10px 40px; 
+  font-size: 1.2rem; 
+  background-color: #2CC531;
+  font-family: 'Montserrat', sans-serif;
+}
+
 .xash-logo {
   width: 2.3rem !important;
   height: auto;
@@ -68,6 +90,27 @@ html {
 }
 
 @media only screen and (max-width: 600px) {
+  .homeContent {
+    align-items: center;
+    margin-top: 2rem;
+  }
+
+  .homeImg {
+    margin-top: 4rem;
+  }
+
+  h1 {
+    text-align: center !important;
+  }
+
+  .homeDes {
+    text-align: center;
+  }
+
+  .btn {
+    float: inherit;
+  }
+
   .meet {
     font-size: 1.5rem !important;
   }
@@ -95,7 +138,7 @@ html {
   }
   .header{
     clip-path: polygon(100% 0, 100% 80%, 0 100%, 0 0);
-    height:85vh;
+    height:95vh;
 
   }
   .header2{
@@ -104,7 +147,7 @@ html {
   }
 }
 
-.brand-logo {
+.images {
   height: 10rem;
   width: auto;
   border: 10px solid white;
